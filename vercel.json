@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/innova/ota/(.*)", "destination": "/api/ota?ticket=$1" }
+  ]
+}
